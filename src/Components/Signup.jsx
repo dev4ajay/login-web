@@ -138,7 +138,7 @@ const Signup = () => {
 
         </div>
         <div className='col-lg-6 mt-2 mb-2'>
-          <img src={Img} alt='img-sign' className='rounded-xl'  style={{height:"97vh"}}/>
+          <img src={Img} alt='img-sign' className='rounded-xl sign-img'  />
         </div>
         </div>  
 

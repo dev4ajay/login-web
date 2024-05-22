@@ -2,11 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* 
 .main-sign{
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px !important;
-}
+} */
 
 .bg{
   background-color: aliceblue;
+}
+
+.sign-img{
+  height: 97vh;
+
+}
+@media (max-width: 991px) {
+  .sign-img{
+    height: 70vh;
+  }
+  
+  }
+@media (max-width: 768px) {
+  .sign-img{
+    height: 70vh;
+  }
+  
+  }
+
+@media (max-width: 576px) {
+  .sign-img{
+    height: 70vh;
+  }
+  
+  }
+
+@media (max-width: 400px) {
+  .sign-img{
+    height: 70vh;
+  }
+  
+  }
+@media (max-width: 300px) {
+  .sign-img{
+    height: 70vh;
+  }
+  
+  }
+@media (max-width: 270px) {
+.sign-img{
+  height: 70vh;
+}
+
 }
